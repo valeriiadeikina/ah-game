@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
+    "test": "jest --passWithNoTests",
     "lint": "eslint .",
     "start": "webpack -d eval-source-map && babel-node"
   },
