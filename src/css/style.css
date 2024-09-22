@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.game-field {
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+.game-cell {
+  border: solid 2px black;
+  width: 24%;
+  height: 24%;
+}
+
+.img {
+  width: 90px;
+}
