@@ -22,3 +22,7 @@
 .img {
   width: 90px;
 }
+
+.custom-cursor {
+  cursor: url("../img/hammer-9469.png"), auto;
+}
