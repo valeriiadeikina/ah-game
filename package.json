@@ -8,8 +8,7 @@
     "watch": "webpack --watch",
     "test": "jest --passWithNoTests",
     "lint": "eslint .",
-    "start": "webpack -d eval-source-map && babel-node",
-    "deploy": "npm run build && gh-pages -d dist -u 'appveyor-bot <ci@appveyor>'"
+    "start": "webpack -d eval-source-map && babel-node"
   },
   "type": "module",
   "keywords": [],
