@@ -9,7 +9,7 @@
     "test": "jest --passWithNoTests",
     "lint": "eslint .",
     "start": "webpack -d eval-source-map && babel-node",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist -u 'appveyor-bot <ci@appveyor>'"
   },
   "type": "module",
   "keywords": [],
